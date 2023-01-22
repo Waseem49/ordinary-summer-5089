@@ -5,6 +5,7 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import { padding } from "@mui/system";
 
 const Footer = () => {
   const sizeofIcon = {
@@ -19,7 +20,8 @@ const Footer = () => {
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
-          marginBottom:"2rem"
+          marginBottom: "2rem",
+          padding: "0 2rem",
         }}>
         <div
           style={{
@@ -123,7 +125,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p>
+      <p style={{ padding: "1rem 0 2rem 0" }}>
         Terms & Conditions | Accessibility | About Ads | Privacy Policy | Do Not
         Sell | My Personal Information | Site Map | © 2023 Express. All rights
         reserved

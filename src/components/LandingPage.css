@@ -1,0 +1,135 @@
+.collections {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5rem;
+  padding: 1rem 1rem 4rem 1rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgb(202, 199, 199);
+}
+.collections > div {
+  background-color: aliceblue;
+}
+.express img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+.express img:hover {
+  transform: scale(0.9);
+}
+
+.express {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  width: 100%;
+  padding: 4rem 3rem;
+  margin-top: 1.5rem;
+  border-bottom: 1px solid rgb(202, 199, 199);
+}
+.express div:nth-child(1) {
+  background-image: url("https://www.express.com/content/dam/express/2022/projects/web/home-landing/12-december/1228-digital-20769-hp/-dt/0102-new-dt_03-02.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5rem 0 5rem 0;
+  border: 1px solid rgb(214, 196, 196);
+}
+.express div:nth-child(2) {
+  background-image: url("https://www.express.com/content/dam/express/2022/projects/web/home-landing/12-december/1228-digital-20769-hp/-dt/0102-new-dt_03.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5rem 0 5rem 0;
+  border: 1px solid rgb(226, 220, 220);
+}
+.express div:nth-child(3) {
+  background-image: url("https://www.express.com/content/dam/express/2022/projects/web/home-landing/12-december/1228-digital-20769-hp/-dt/0102-new-dt_03-03.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5rem 0 5rem 0;
+  border: 1px solid rgb(214, 196, 196);
+}
+.express div:nth-child(4) {
+  background-image: url("https://www.express.com/content/dam/express/2022/projects/web/home-landing/12-december/1228-digital-20769-hp/-dt/0102-new-dt_03-04.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5rem 0 5rem 0;
+  border: 1px solid rgb(214, 196, 196);
+}
+.express div:nth-child(5) {
+  background-image: url("https://www.express.com/content/dam/express/2022/projects/web/home-landing/12-december/1228-digital-20769-hp/-dt/0102-new-dt_03-05.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5rem 0 5rem 0;
+  border: 1px solid rgb(248, 244, 244);
+}
+.express div:nth-child(6) {
+  background-image: url("https://www.express.com/content/dam/express/2023/projects/web/home-landing/01-january/0106-digital-22985-hp/-dt/sweaters-dt.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5rem 0 5rem 0;
+  border: 1px solid rgb(136, 80, 80) e;
+}
+.our_community {
+  background-color: rgba(223, 225, 236, 0.182);
+  padding: 3rem 0;
+  border-bottom: 1px solid rgb(202, 199, 199);
+  margin-bottom: 3rem;
+}
+.our_community span {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.our_community > div {
+  padding: 2rem 0.7rem 0 0.7rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.our_community img {
+  border-radius: 3rem 0 3rem 0;
+  transition: transform 0.5s;
+}
+.our_community img:hover {
+  transform: scale(0.9);
+}
+
+.our_community h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0.6rem 0 0 0;
+}
+.our_community p {
+  font-weight: 500;
+  padding: 0.2rem 0 0.1rem 0;
+  text-decoration: underline;
+}
+.express_you{
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgb(202, 199, 199);
+  margin-bottom: 3rem;
+}
+.express_you > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+  padding: 2rem 1rem;
+}
+.express_you img {
+  border-radius: 2rem 0 2rem 0;
+  background-size: contain;
+  transition: transform 0.5s;
+}
+.express_you img:hover {
+  transform: scale(1.1);
+}
+.express_you button:hover {
+  color: white;
+  background-color: black;
+}
